@@ -1,0 +1,17 @@
+.orderSectionStyle {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.orderButtonStyle {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  background-color: #7b3f00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}

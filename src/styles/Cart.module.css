@@ -1,0 +1,110 @@
+menuCard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 200px;
+  background-color: white;
+  color: black;
+}
+@media screen and (min-width: 200px) and (max-width: 767px) {
+  .cartContainer {
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 780px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .cartContainer {
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 1150px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1300px) {
+  .cartContainer {
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 530px;
+  }
+}
+
+.cartHeader {
+  margin-bottom: 20px;
+}
+
+.emptyCart {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+}
+
+.cartItemCard {
+  border: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cartItemCard:hover {
+  transform: translateY(-5px);
+}
+
+.cartItemImage {
+  width: 180px;
+  height: 250px;
+}
+
+.cartItemName {
+  font-size: 1.2rem;
+}
+
+.cartItemPrice {
+  font-weight: bold;
+}
+
+.divplacing {
+  overflow-y: auto;
+}
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.checkoutButton,
+.continueButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.checkoutButton {
+  background-color: #ff6347;
+  color: white;
+}
+
+.checkoutButton:hover {
+  background-color: #d34a37;
+}
+
+.continueButton {
+  background-color: #6495ed;
+  color: white;
+}
+
+.continueButton:hover {
+  background-color: #4a77b9;
+}
+
+.totalAmount {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #d34a37;
+}

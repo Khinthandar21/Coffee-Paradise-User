@@ -1,0 +1,20 @@
+/* Navbar.module.css */
+
+.navLinkStyle {
+  color: white !important; 
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.cartLinkStyle {
+  color: white !important;
+  margin-left: 10px;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.togglerStyle {
+  background-color: white !important;
+}

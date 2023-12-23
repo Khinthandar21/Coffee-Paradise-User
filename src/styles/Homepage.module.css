@@ -1,0 +1,49 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.containerStyle {
+  background-image: url(https://www.shutterstock.com/image-photo/wood-table-top-blur-people-260nw-568528537.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+}
+
+.textStyle {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: cursive;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+
+.orderTitleStyle {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.orderDetailsStyle {
+  font-size: 1.5rem;
+  margin-bottom: 20;
+}
+
+.orderButtonStyle {
+  padding: "10px 20px";
+  font-size: "1.5rem";
+  background-color: "#7B3F00";
+  color: "white";
+  border: "none";
+  border-radius: "8px";
+  cursor: "pointer";
+}

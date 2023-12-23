@@ -1,0 +1,46 @@
+/* MenuItems.css */
+.menuCard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 200px;
+  background-color: white;
+  color: black;
+}
+.menuContainerStyle {
+  background-image: url("../images/url_to_your_background_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  align-items: center;
+  color: white;
+  padding: 20px;
+}
+.menuContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.menuCard button {
+  background-color: #b87a37;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.menuCard button:hover {
+  background-color: #7b3f00;
+}
